@@ -1,4 +1,4 @@
-# PUBG Victory Dances File Names
+# PUBG Victory Dance Files
 A repository containing all of the PUBG Victory Dances file names (WIP)
 | Name         | Key<br/>GUID                                                                                            | Notes        |
 |--------------|---------------------------------------------------------------------------------------------------------|--------------|
