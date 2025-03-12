@@ -1,6 +1,6 @@
 # PUBG Victory Dance Files
 A repository containing all of the PUBG Victory Dance files (WIP)
-| Name         | Key<br/>GUID                                                                                            | Notes        |
+| Number/Name         | Key<br/>GUID                                                                                            | Notes        |
 |--------------|---------------------------------------------------------------------------------------------------------|--------------|
 | pakchunk1000 | <br/>558C4703445945BA01B8A4A7F5AEEC5E                                                                   | Bao Bros set |
 | pakchunk1001 | 0x28E287DC903E38C96207E7F5ECF77C38512DA286826637A1CF70AF7EA6926ED5<br/>6838E4BB35C0449D4F66F7E92A960D1F |              |
