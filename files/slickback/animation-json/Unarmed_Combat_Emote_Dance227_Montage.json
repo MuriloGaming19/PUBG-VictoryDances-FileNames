@@ -1,0 +1,2283 @@
+[
+  {
+    "Type": "*1564d7d7c0",
+    "Name": "AnimNotify_AkEvent_Advanced_0",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "UScriptClass'*1564d7d7c0'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AkAudioEvent": {
+        "ObjectName": "AkAudioEvent'Character_Anim_Emote_Dance227'",
+        "ObjectPath": "TslGame/Content/WwiseAssets/Character/Character_Emote/Character_Anim_Emote_Dance227.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimMontage",
+    "Name": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "UScriptClass'AnimMontage'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "*b8cddc6e3e": [
+        {
+          "SectionName": "Default",
+          "*d7f454e1e8": "Loop_Start",
+          "MetaData": [],
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 0.0,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "SectionName": "Loop_Start",
+          "*d7f454e1e8": "Loop_Start",
+          "MetaData": [],
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 0.83618647,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "SectionName": "Loop_End",
+          "*d7f454e1e8": "None",
+          "MetaData": [],
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 14.547608,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        }
+      ],
+      "*aa45f92098": [
+        {
+          "SlotName": "Emote",
+          "*8fb3196acc": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+                  "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 14.547642,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        },
+        {
+          "SlotName": "EmoteMoving",
+          "*8fb3196acc": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227_1'",
+                  "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_1.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 14.547642,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "SpawnObject",
+          "Notify": {
+            "ObjectName": "AnimNotify_SpawnObject'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_SpawnObject_0'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.35"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 3.3522488E+14,
+            "*9ecaae5cdd": 0.18049756,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 2,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 0.18049756,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0001,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent_Advanced",
+          "Notify": {
+            "ObjectName": "*1564d7d7c0'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_Advanced_0'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.0"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": -3.4947906E-35,
+            "*9ecaae5cdd": 1.3832,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 1,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 0.83618647,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_56'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.30"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 0.86976004,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_0'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 1.2373757,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_1'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 1.6597787,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_2'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.14"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 2.1260161,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_3'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.24"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 2.544434,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_4'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.28"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 2.9429336,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_5'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.29"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 3.3812761,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_6'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.31"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 3.7802222,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_7'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.32"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 4.2296786,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_19'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.13"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 4.6576347,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_9'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.34"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 5.107231,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_20'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.15"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 5.508654,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_10'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 5.952606,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_11'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 6.413244,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_12'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 6.782558,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_13'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 7.196991,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_14'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.8"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 7.6034536,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_15'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 7.9820223,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_16'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 8.500063,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_17'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.11"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 8.94239,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_18'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.12"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 9.381214,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_8'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.33"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 9.787678,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_21'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.16"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 10.20211,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_22'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.17"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 10.600603,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_24'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.18"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 11.038946,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_25'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.19"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 11.547897,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_26'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.20"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 11.960077,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_27'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.21"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 12.414896,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_28'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.22"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 12.824233,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_29'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.23"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 13.236412,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_30'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.25"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 13.716814,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_31'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.26"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 14.083511,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        },
+        {
+          "*fc9b0c9e02": 0.0,
+          "*6874b69723": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'Unarmed_Combat_Emote_Dance227_Montage:AnimNotify_AkEvent_C_32'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.27"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 0.0,
+            "*9ecaae5cdd": 3.216261,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance227_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 14.547642,
+          "*9ecaae5cdd": 14.473117,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance227'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance227.0"
+          }
+        }
+      ],
+      "SequenceLength": 14.547642,
+      "Skeleton": {
+        "ObjectName": "Skeleton'CharacterBase_Skeleton'",
+        "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Skeleton/CharacterBase_Skeleton.66"
+      }
+    },
+    "SkeletonGuid": "75B99DEF-4AF43C6F-E234AEAF-921A015F"
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_0",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_1",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_10",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_11",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_12",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_13",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_14",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_15",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_16",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_17",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_18",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_19",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_2",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_20",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_21",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_22",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_24",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_25",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_26",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_27",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_28",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_29",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_3",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_30",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_31",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_32",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_4",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_5",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_56",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_6",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_7",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_8",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_9",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "BlueprintGeneratedClass'Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "Engine/Plugins/Wwise/Content/AnimNotify_AkEvent.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EventData": {
+        "ObjectName": "*21d1894bf6'AkFootstep'",
+        "ObjectPath": "TslGame/Content/WwiseRelatedDataAsset/For_Footstep_StringEvents/AkFootstep.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_SpawnObject",
+    "Name": "AnimNotify_SpawnObject_0",
+    "Outer": "Unarmed_Combat_Emote_Dance227_Montage",
+    "Class": "UScriptClass'AnimNotify_SpawnObject'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NotifyName": "TapPad",
+      "SocketName": "item_r",
+      "SpawnObjectClass": {
+        "ObjectName": "BlueprintGeneratedClass'Emote_Object_Cellular_White_C'",
+        "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/ObjectEmote/Emote_Object_Cellular_White.0"
+      },
+      "LifeTime": 0.0
+    }
+  }
+]
