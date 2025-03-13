@@ -1,0 +1,158 @@
+[
+  {
+    "Type": "*1564d7d7c0",
+    "Name": "AnimNotify_AkEvent_Advanced_0",
+    "Outer": "Unarmed_Combat_Emote_Dance193_Montage",
+    "Class": "UScriptClass'*1564d7d7c0'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AkAudioEvent": {
+        "ObjectName": "AkAudioEvent'Character_Anim_Emote_Dance193'",
+        "ObjectPath": "TslGame/Content/WwiseAssets/Character/Character_Emote/Character_Anim_Emote_Dance193.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimMontage",
+    "Name": "Unarmed_Combat_Emote_Dance193_Montage",
+    "Class": "UScriptClass'AnimMontage'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "*b8cddc6e3e": [
+        {
+          "SectionName": "Default",
+          "*d7f454e1e8": "Loop_Start",
+          "MetaData": [],
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance193_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance193_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 11.25,
+          "*9ecaae5cdd": 0.0,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance193'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance193.0"
+          }
+        },
+        {
+          "SectionName": "Loop_Start",
+          "*d7f454e1e8": "Loop_Start",
+          "MetaData": [],
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance193_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance193_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 11.25,
+          "*9ecaae5cdd": 0.5831256,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance193'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance193.0"
+          }
+        },
+        {
+          "SectionName": "Loop_end",
+          "*d7f454e1e8": "None",
+          "MetaData": [],
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance193_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance193_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 11.25,
+          "*9ecaae5cdd": 11.249987,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance193'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance193.0"
+          }
+        }
+      ],
+      "*aa45f92098": [
+        {
+          "SlotName": "Emote",
+          "*8fb3196acc": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance193'",
+                  "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance193.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 11.25,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "*fc9b0c9e02": 0.0001,
+          "*6874b69723": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent_Advanced",
+          "Notify": {
+            "ObjectName": "*1564d7d7c0'Unarmed_Combat_Emote_Dance193_Montage:AnimNotify_AkEvent_Advanced_0'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance193_Montage.0"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "*9f3c3d3750": null,
+            "SlotIndex": 0,
+            "*6f51b52293": -1,
+            "*589d6f913a": "EAnimLinkMethod::Absolute",
+            "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+            "*e37aa82f9a": "NaN",
+            "*4eaee0a901": 1.2597223E+13,
+            "*9ecaae5cdd": 0.5831256,
+            "*4617d3ab46": null
+          },
+          "*50ecbf1687": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "TrackIndex": 0,
+          "*9f3c3d3750": {
+            "ObjectName": "AnimMontage'Unarmed_Combat_Emote_Dance193_Montage'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance193_Montage.1"
+          },
+          "SlotIndex": 0,
+          "*6f51b52293": 0,
+          "*589d6f913a": "EAnimLinkMethod::Absolute",
+          "*3d7ee0903b": "EAnimLinkMethod::Absolute",
+          "*e37aa82f9a": 0.0,
+          "*4eaee0a901": 11.25,
+          "*9ecaae5cdd": 0.5831256,
+          "*4617d3ab46": {
+            "ObjectName": "AnimSequence'Unarmed_Combat_Emote_Dance193'",
+            "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Anims/Unarmed/Emote/Unarmed_Combat_Emote_Dance193.0"
+          }
+        }
+      ],
+      "SequenceLength": 11.25,
+      "Skeleton": {
+        "ObjectName": "Skeleton'CharacterBase_Skeleton'",
+        "ObjectPath": "TslGame/Content/Animations/Battlegrounds/Skeleton/CharacterBase_Skeleton.66"
+      }
+    },
+    "SkeletonGuid": "75B99DEF-4AF43C6F-E234AEAF-921A015F"
+  }
+]
